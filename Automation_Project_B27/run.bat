@@ -1,0 +1,2 @@
+cd C:\Selenium_Project_2024\Automation_Project_B27
+mvn test
