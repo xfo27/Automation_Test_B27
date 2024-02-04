@@ -3,6 +3,7 @@
 	<name>Automation_Project_B27</name>
 	<comment></comment>
 	<projects>
+		<project>Automation_Project_SSB27</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
