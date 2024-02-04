@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-03T15:15:27 EST" name="Suite" finished-at="2024-02-03T15:15:27 EST" duration-ms="66">
+  <suite started-at="2024-02-03T21:02:45 EST" name="Suite" finished-at="2024-02-03T21:02:48 EST" duration-ms="3331">
     <groups>
     </groups>
-    <test started-at="2024-02-03T15:15:27 EST" name="Test" finished-at="2024-02-03T15:15:27 EST" duration-ms="66">
+    <test started-at="2024-02-03T21:02:45 EST" name="Test" finished-at="2024-02-03T21:02:48 EST" duration-ms="3331">
       <class name="testCases.VerifyLoginFunctionality">
-        <test-method is-config="true" signature="readConfigFile()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T15:15:27 EST" name="readConfigFile" finished-at="2024-02-03T15:15:27 EST" duration-ms="10" status="FAIL">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[C:\Users\ullah\eclipse-workspace\MavenProject1\src\test\resources\Configurations\Config.properties" (The filename, directory name, or volume label syntax is incorrect)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: C:\Users\ullah\eclipse-workspace\MavenProject1\src\test\resources\Configurations\Config.properties" (The filename, directory name, or volume label syntax is incorrect)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-at utility.BaseTest.readConfigFile(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method is-config="true" signature="readConfigFile()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:45 EST" name="readConfigFile" finished-at="2024-02-03T21:02:45 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readConfigFile -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T15:15:27 EST" name="launchApp" finished-at="2024-02-03T15:15:27 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:45 EST" name="launchApp" finished-at="2024-02-03T21:02:47 EST" duration-ms="2512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T15:15:27 EST" name="verifyValidLogin" finished-at="2024-02-03T15:15:27 EST" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[C:\Users\ullah\eclipse-workspace\MavenProject1\src\test\resources\Configurations\Config.properties" (The filename, directory name, or volume label syntax is incorrect)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: C:\Users\ullah\eclipse-workspace\MavenProject1\src\test\resources\Configurations\Config.properties" (The filename, directory name, or volume label syntax is incorrect)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-at utility.BaseTest.readConfigFile(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:47 EST" name="verifyValidLogin" finished-at="2024-02-03T21:02:48 EST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T15:15:27 EST" name="closeApp" finished-at="2024-02-03T15:15:27 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:48 EST" name="closeApp" finished-at="2024-02-03T21:02:48 EST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
