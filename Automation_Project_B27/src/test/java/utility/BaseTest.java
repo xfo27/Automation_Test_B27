@@ -17,7 +17,7 @@ public class BaseTest {
 	@BeforeSuite
 	//Read Config.properties file and data
 	public void readConfigFile() throws Exception {
-		FileInputStream file=new FileInputStream("C:\\Selenium_Project_2024\\Automation_Project_B27\\src\\test\\resources\\Configurations\\config.properties");
+		FileInputStream file=new FileInputStream("C:\\\\Users\\\\ullah\\\\eclipse-workspace\\\\MavenProject1\\\\src\\\\test\\\\resources\\\\Configurations\\\\Config.properties\"");
 		prop.load(file);
 	}
 
