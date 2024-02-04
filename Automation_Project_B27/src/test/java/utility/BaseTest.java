@@ -17,7 +17,7 @@ public class BaseTest {
 	@BeforeSuite
 	//Read Config.properties file and data
 	public void readConfigFile() throws Exception {
-		FileInputStream file=new FileInputStream("C:\\Users\\lnnoc\\git\\Automation_Test_B27\\Automation_Project_B27\\src\\test\\resources\\Configurations\\config.properties");
+		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\Configurations\\config.properties");
 		prop.load(file);
 	}
 
