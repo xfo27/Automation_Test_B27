@@ -21,6 +21,7 @@ public class BaseTest {
 		prop.load(file);
 	}
 
+	@SuppressWarnings("deprecation")
 	@BeforeTest
 	//Launch browser and app
 	public void launchApp() {
