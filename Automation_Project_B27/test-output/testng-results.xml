@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-03T21:02:45 EST" name="Suite" finished-at="2024-02-03T21:02:48 EST" duration-ms="3331">
+  <suite started-at="2024-02-05T10:46:32 EST" name="Suite" finished-at="2024-02-05T10:46:38 EST" duration-ms="5158">
     <groups>
     </groups>
-    <test started-at="2024-02-03T21:02:45 EST" name="Test" finished-at="2024-02-03T21:02:48 EST" duration-ms="3331">
+    <test started-at="2024-02-05T10:46:32 EST" name="Test" finished-at="2024-02-05T10:46:38 EST" duration-ms="5158">
       <class name="testCases.VerifyLoginFunctionality">
-        <test-method is-config="true" signature="readConfigFile()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:45 EST" name="readConfigFile" finished-at="2024-02-03T21:02:45 EST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="readConfigFile()[pri:0, instance:testCases.VerifyLoginFunctionality@78e4deb0]" started-at="2024-02-05T10:46:32 EST" name="readConfigFile" finished-at="2024-02-05T10:46:32 EST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readConfigFile -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:45 EST" name="launchApp" finished-at="2024-02-03T21:02:47 EST" duration-ms="2512" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.VerifyLoginFunctionality@78e4deb0]" started-at="2024-02-05T10:46:32 EST" name="launchApp" finished-at="2024-02-05T10:46:36 EST" duration-ms="3908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:47 EST" name="verifyValidLogin" finished-at="2024-02-03T21:02:48 EST" duration-ms="624" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:testCases.VerifyLoginFunctionality@78e4deb0]" started-at="2024-02-05T10:46:36 EST" name="verifyValidLogin" finished-at="2024-02-05T10:46:37 EST" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.VerifyLoginFunctionality@776aec5c]" started-at="2024-02-03T21:02:48 EST" name="closeApp" finished-at="2024-02-03T21:02:48 EST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.VerifyLoginFunctionality@78e4deb0]" started-at="2024-02-05T10:46:37 EST" name="closeApp" finished-at="2024-02-05T10:46:38 EST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
